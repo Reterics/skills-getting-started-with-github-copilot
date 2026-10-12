@@ -85,6 +85,7 @@ def root():
 
 @app.get("/activities")
 def get_activities():
+    """Return activities with their current participant lists."""
     return activities
 
 
